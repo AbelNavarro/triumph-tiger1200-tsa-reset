@@ -1,0 +1,5 @@
+# Provenance of the access required for the shift-force adaptation reset
+
+The level-1 constant used by the original owner-tested implementation is 0x4B48. On November 24, 2026 the owner captured Bluetooth communication between licensed TuneECU, a genuine OBDLink LX and his own 2018 Tiger 1200 XRT during legitimate diagnostic operations. The observed accepted exchanges included an odd seed, enabling independent determination of the constant from communication behavior. On November 26 the separate Python implementation successfully used that access mechanism for the shift-force adaptation reset. The owner subsequently confirmed restored quickshifter operation.
+
+The project implements the access mechanism required for this repair. It does not claim to establish the full set of operations that the ECU authorizes at level 1 or applicability to other ECUs. The public workflow excludes unrelated access levels, programming, flashing and other experimental paths. Use it only on a motorcycle you own or are authorized to service. This account of provenance is not a legal determination.

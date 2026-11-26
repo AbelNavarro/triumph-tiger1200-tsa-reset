@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Triumph Tiger 1200 TSA reset
+message: If you use this project, please cite the software and its author.
+type: software
+authors:
+  - family-names: Navarro
+    given-names: Abel
+repository-code: https://github.com/AbelNavarro/triumph-tiger1200-tsa-reset
+license: MIT

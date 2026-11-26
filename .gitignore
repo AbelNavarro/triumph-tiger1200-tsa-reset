@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+*.log
+tsa_report*.json
+tsa_capture_*/
+tsa_attempts*.jsonl
+session-logs-raw/
+*.hex
+*.apk
+*.btsnoop
+*.pcap*
+
+tsa_l1now_*/
+tsa_l1_now_attempts.jsonl
